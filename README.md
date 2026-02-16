@@ -1,11 +1,10 @@
 # Scalable Dashboard App
 
-A Full Stack Task Management Dashboard built using:
+## Tech Stack
 
 Frontend:
 - React.js
 - Tailwind CSS
-- Axios
 
 Backend:
 - Node.js
@@ -15,21 +14,30 @@ Backend:
 Database:
 - MongoDB Atlas
 
-Features:
-- User Signup & Login
-- JWT Based Authentication
-- Protected Dashboard Routes
-- Add / Delete Tasks
-- Search Tasks
-- Logout Functionality
-- Responsive UI
+## Features
 
-Deployment:
-Frontend: Netlify  
-Backend: Render  
-Database: MongoDB Atlas
+- User Signup/Login
+- JWT Authentication
+- Protected Routes
+- Task Management
+- Add/Delete Tasks
+- Search Functionality
+- Logout
+- Responsive Dashboard
 
-Live Links:
+## Security Practices
+
+- Passwords hashed using bcrypt
+- JWT based authentication
+- Token validation middleware
+
+## Project Structure
+
+- Modular backend (routes, models, middleware)
+- Separated frontend & backend
+- Scalable API structure
+
+## Deployment
 
 Frontend:
 https://scalable-dashboard.netlify.app
