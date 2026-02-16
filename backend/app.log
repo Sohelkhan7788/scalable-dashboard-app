@@ -1,0 +1,64 @@
+APPLICATION LOG REPORT
+
+Project: Scalable Dashboard App
+Developer: Sohel Khan
+Environment: Production (Render + MongoDB Atlas)
+
+---------------------------------------------
+SERVER INITIALIZATION
+---------------------------------------------
+Server started successfully on Render.
+Connected to MongoDB Atlas Cluster.
+
+---------------------------------------------
+AUTHENTICATION MODULE TESTING
+---------------------------------------------
+POST /api/auth/register
+→ User registration successful
+→ Password hashed using bcrypt
+
+POST /api/auth/login
+→ JWT Token generated successfully
+→ Token stored on client-side
+
+---------------------------------------------
+JWT SECURITY VALIDATION
+---------------------------------------------
+Protected routes tested using JWT middleware.
+Unauthorized access blocked successfully.
+Valid token allowed access to dashboard routes.
+
+---------------------------------------------
+TASK MANAGEMENT MODULE
+---------------------------------------------
+GET /api/tasks
+→ Retrieved user-specific tasks
+
+POST /api/tasks
+→ Task added successfully
+
+DELETE /api/tasks/:id
+→ Task deleted successfully
+
+All task routes protected using JWT authentication.
+
+---------------------------------------------
+FRONTEND INTEGRATION
+---------------------------------------------
+Frontend deployed on Netlify.
+Backend deployed on Render.
+
+CORS enabled for cross-origin requests.
+
+API communication verified between:
+Netlify Frontend ↔ Render Backend
+
+---------------------------------------------
+DEPLOYMENT STATUS
+---------------------------------------------
+Production deployment completed.
+API endpoints responding successfully.
+
+---------------------------------------------
+END OF LOG
+---------------------------------------------
